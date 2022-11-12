@@ -30,7 +30,7 @@ if opcion == '1':
     print = input(menu)
 
 elif opcion == '2':
-    meconsol2 = """Elegiste la opcion 2, porfavor elige un numero para dividir.
+    meconsol2 = """Elegiste la opcion 2, porfavor elige un numero.
     """
     print(meconsol2)
     print('Ingrese el primer valor: ')
