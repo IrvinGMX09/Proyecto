@@ -12,7 +12,7 @@ print(menu)
 opcion = input('Seleciona una opcion del 1 al 8:')
 
 if opcion == '1': 
-    meconsol1 = """Elegiste la opcion 1, porfavor elige un numero:
+    meconsol1 = """Seleccionaste la opcion 1, porfavor elige un numero:
     """
     print(meconsol1)
     def prod(sub):
@@ -30,7 +30,7 @@ if opcion == '1':
     print = input(menu)
 
 elif opcion == '2':
-    meconsol2 = """Elegiste la opcion 2, porfavor elige un numero.
+    meconsol2 = """Seleccionaste la opcion 2, porfavor elige un numero.
     """
     print(meconsol2)
     print('Ingrese el primer valor: ')
@@ -42,7 +42,7 @@ elif opcion == '2':
     print = input(menu)
 
 elif opcion == '3':
-    meconsol3 = """Eligiste la opcion 3.
+    meconsol3 = """Seleccionaste la opcion 3.
     """
     print(meconsol3)
     tabla_desde = 1
@@ -57,15 +57,15 @@ elif opcion == '3':
     print = input(menu)
 
 elif opcion == '4':
-    meconsol4 = """Eligiste la opcion 4. 
+    meconsol4 = """Seleccionaste la opcion 4. 
     """
     print(meconsol4)
-    n = int(input("Ingrese el valor que desea elevar :"))
+    n = int(input("Selecciona el valor que desea elevar :"))
     print("El cuadrado de",n,"es:",n*n)
     print("El cubo de",n,"es:",n*n*n)
 
 elif opcion == '5':
-    meconsol5 = """Eligiste la opcion 5
+    meconsol5 = """Seleccionaste la opcion 5
     """
     print(meconsol5)
     numero=int(input('Numero'))
@@ -76,7 +76,7 @@ elif opcion == '5':
             print('Factorial: ', factorial)
 
 elif opcion == '6':
-    meconsol6 = """Eligiste la opcion 6.
+    meconsol6 = """Seleccionaste la opcion 6.
     """
     n = 0
     c= 0
