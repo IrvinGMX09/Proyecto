@@ -1,4 +1,4 @@
-menu = """ Bienvenido a la interfaz del codigo de Automatizacion de redes.
+menu = """ Bienvenido Profesor a nuestro proyecto.
 a continuacion que es lo que quiere realizar:
 [1] Producto
 [2] Division
@@ -10,7 +10,7 @@ a continuacion que es lo que quiere realizar:
 print(menu)
 
 opcion = input('Seleciona una opcion del 1 al 8:')
-
+#El primer codigo muestra una suma
 if opcion == '1': 
     meconsol1 = """Seleccionaste la opcion 1, porfavor elige un numero:
     """
@@ -28,7 +28,7 @@ if opcion == '1':
         res.append(prod(test_list [idx: idx + k]))
     print('Productos calculados: ' + str(res))
     print = input(menu)
-
+#Esta seccion se realiza una division
 elif opcion == '2':
     meconsol2 = """Seleccionaste la opcion 2, porfavor elige un numero.
     """
@@ -40,7 +40,7 @@ elif opcion == '2':
     div = n1 / n2
     print('El resultado es: ', div)
     print = input(menu)
-
+#Muestra las tablas de multiplicar
 elif opcion == '3':
     meconsol3 = """Seleccionaste la opcion 3.
     """
@@ -49,13 +49,13 @@ elif opcion == '3':
     tabla_hasta = 10
     desde = 1
     hasta = 10
-
+#Muestra el cuadrado y el cubo
     for factor1 in range(tabla_desde,  tabla_hasta, + 1):
         print(f'Tabla de multiplicar del {factor1}:')
         for factor2 in range(desde, hasta + 1):
             print(f'{factor1} x {factor2} = {factor1 * factor2}')
     print = input(menu)
-
+#Muestra la factorial
 elif opcion == '4':
     meconsol4 = """Seleccionaste la opcion 4. 
     """
@@ -63,7 +63,7 @@ elif opcion == '4':
     n = int(input("Selecciona el valor que desea elevar :"))
     print("El cuadrado de",n,"es:",n*n)
     print("El cubo de",n,"es:",n*n*n)
-
+#REaliza el promedio
 elif opcion == '5':
     meconsol5 = """Seleccionaste la opcion 5
     """
