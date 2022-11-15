@@ -1,9 +1,9 @@
 menu = """ Bienvenido Profesor a nuestro proyecto.
 a continuacion que es lo que quiere realizar:
-[1] Producto
-[2] Division
-[3] Tablas de multiplicar
-[4] Cuadrado y cubo
+[1] Producto entre "n" numeros
+[2] Division entre dos numeros
+[3] Tablas de multiplicar 
+[4] Calculo de Cuadrado y cubo 
 [5] Factorial
 [6] Promedio
 """
@@ -63,7 +63,7 @@ elif opcion == '4':
     n = int(input("Selecciona el valor que desea elevar :"))
     print("El cuadrado de",n,"es:",n*n)
     print("El cubo de",n,"es:",n*n*n)
-#REaliza el promedio
+#Johana Guadalupe
 elif opcion == '5':
     meconsol5 = """Seleccionaste la opcion 5
     """
